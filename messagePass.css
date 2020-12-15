@@ -1,0 +1,50 @@
+body {background-image: url("snow-fall.jpg");
+}
+.container {
+    background-color: lightblue;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+.inside {
+    background-color: lightgray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    text-align: center;
+    
+}
+.display-message {
+    background-color: white;
+    width: 90%;
+    height: 30%;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin: 30px auto auto auto;
+    border: 2px solid lightsteelblue;
+    font-size: 1.6em;
+    text-align: center;
+    color: steelblue;
+}
+h1 {
+    font-size: 2em;
+    margin-top: 10px;
+}
+input {
+    width: 90%;
+    height: 25px;
+    font-size: 1em;
+    border: 2px solid lightsteelblue;
+    color: steelblue;
+}
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: lightblue;
+}
